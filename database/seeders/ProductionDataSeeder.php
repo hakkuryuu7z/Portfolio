@@ -12,7 +12,7 @@ class ProductionDataSeeder extends Seeder
      */
     public function run(): void
     {
-        $data = {
+        $json = '{
             "projects": [
                 {
                     "title": "Automated Retail Dashboard: Sales Tracking & Stock Aggregation",
@@ -115,7 +115,9 @@ class ProductionDataSeeder extends Seeder
                     "value": "muhammadwildansafrudin@gmail.com"
                 }
             ]
-        };
+        }';
+
+        $data = json_decode($json, true);
 
         // Insert Projects
         foreach ($data['projects'] as $project) {
