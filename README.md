@@ -73,7 +73,7 @@ Before setting up the project, make sure you have the following installed on you
    - **Admin Panel**: Visit `http://localhost:8000/admin`
 
 ## 🎨 Screenshots
-*(Add screenshots of your frontend and admin dashboard here)*
+ <img src="./image.png" width="100%" alt="Bot Tanya Banner" style="border-radius: 12px; margin-bottom: 20px;">
 
 ## 📝 License
 
