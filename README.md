@@ -30,7 +30,7 @@ Before setting up the project, make sure you have the following installed on you
 
 1. **Clone the repository**
    ```bash
-   git clone <your-github-repo-url>
+   git clone https://github.com/hakkuryuu7z/Portfolio
    cd portfolio
    ```
 
